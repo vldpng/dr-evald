@@ -1,0 +1,27 @@
+# Keep this repository limited to the deliverable, not local archives or backups.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/package.json
+!/public/
+!/scripts/
+!/wordpress/
+/wordpress/*
+!/wordpress/theme/
+!/wordpress/plugin/
+!/wordpress/migration/
+/wordpress/migration/*
+!/wordpress/migration/public-content.json
+!/wordpress/migration/restore.php
+!/wordpress/migration/README.md
+**/.DS_Store
+**/Thumbs.db
+**/.env
+**/.env.*
+**/wp-config.php
+**/*.sql
+**/*.sql.gz
+**/*.log
+**/node_modules/
+**/.git/

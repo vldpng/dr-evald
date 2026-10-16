@@ -1,0 +1,11 @@
+{
+  "name": "dr-evald",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dr. Evald dental clinic: static client demo and WordPress source",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

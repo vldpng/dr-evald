@@ -1,0 +1,1 @@
+<?php get_header();?><main id="main"><?php while(have_posts()):the_post();if(get_post_meta(get_the_ID(),'_dre_kind',true)==='home')get_template_part('template-parts/home');else get_template_part('template-parts/page');endwhile;?></main><?php get_footer();?>
